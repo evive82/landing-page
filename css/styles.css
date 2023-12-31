@@ -1,0 +1,66 @@
+body {
+    font-family: Roboto, sans-serif;
+    width: 1440px;
+    margin: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 208px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link-container {
+    padding-top: 6px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.title-blurb,
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title-section {
+    background-color: #1f2937;
+    height: 476px;
+    margin: 0;
+}
+
+.content {
+    background-color: #fff;
+    height: 496px;
+}
+
+.testimonials {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    height: 430px;
+}
+
+.banner-section {
+    background-color: #fff;
+    height: 350px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+}
