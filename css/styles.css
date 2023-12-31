@@ -31,15 +31,41 @@ a {
 }
 
 .title-blurb,
-.header-link {
+.header-link,
+.title-image {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .title-section {
     background-color: #1f2937;
-    height: 476px;
-    margin: 0;
+    display: flex;
+    gap: 36px;
+    height: 265px;
+    margin: 0px;
+    padding: 108px 200px;
+}
+
+.title-info {
+    padding: 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.title-image {
+    background-color: #6d747d;
+    height: 240px;
+    width: 1025px;
+    margin-top: 10px;
+}
+
+.title-image p {
+    padding:109px 0px;
+    text-align: center;
 }
 
 .content {
@@ -63,4 +89,19 @@ a {
 .footer {
     background-color: #1f2937;
     height: 100px;
+}
+
+.title-btn {
+    padding-top: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f9faf8;
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
 }
