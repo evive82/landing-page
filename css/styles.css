@@ -171,7 +171,13 @@ a {
 
 .footer {
     background-color: #1f2937;
-    height: 100px;
+    padding: 41px;
+}
+
+.footer p {
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: center;
 }
 
 button {
